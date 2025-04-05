@@ -2,10 +2,11 @@
 const nextConfig = {
   output: 'export',
   basePath: '/mathhomepage',
+  assetPrefix: '/mathhomepage/',
   images: {
     unoptimized: true,
   },
-  assetPrefix: '/mathhomepage',
+  trailingSlash: true,
 };
 
-export default nextConfig;
+module.exports = nextConfig;
