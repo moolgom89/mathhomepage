@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 // 강의 과정 데이터
 const courses = [
   {

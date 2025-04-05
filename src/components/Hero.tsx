@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Hero() {
   return (
     <section className="py-16 md:py-20 bg-[color:var(--accent)] dark:bg-[color:var(--accent-dark)]/80">
