@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "수학의 명장 | 30년 경력 부부 수학강사",
-  description: "30년 이상의 경력을 가진 부부 수학강사 프로필 및 강의 소개. 고등학교와 중학교 수학 전문 강사",
+  title: "수학베스트 | 중고등 수학 전문 학원",
+  description: "30년 경력의 부부 수학강사가 운영하는 중고등 수학 전문 학원입니다.",
+  metadataBase: new URL('https://moolgom89.github.io/mathhomepage'),
 };
 
 export default function RootLayout({
